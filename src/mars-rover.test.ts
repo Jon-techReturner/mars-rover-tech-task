@@ -1,15 +1,12 @@
 type Heading = "N" | "W" | "S" | "E";
-const Compass : Array<Heading> = ["N", "E", "S", "W"]
+const Compass : Array<Heading> = ["N", "E", "S", "W"];
 
-
-const turnLeft = (heading: Heading) => {
+const rotate = (turns: number) => (heading: Heading) => {
     const idx = Compass.indexOf(heading);
-    return Compass[(idx + 3) % 4]; 
-};
-const turnRight = (heading: Heading) => {
-   const idx = Compass.indexOf(heading);
-   return Compass[(idx + 1) % 4]; // added modulo 4 for 0,1,2,3 for N E S W
-};
+    return Compass[(idx + turns) % 4]
+}
+const turnLeft = rotate(3);
+const turnRight = rotate(1);
 
 test.each`
 original | expected
