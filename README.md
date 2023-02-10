@@ -5,10 +5,10 @@
 
 ## Understand the Movement and Co-ordinates and Plateau
 ### Turning Left
-N => W
-W => S
-S => E
-S => E
+N => W,
+W => S,
+S => E,
+S => E,
 E => N
 
 
