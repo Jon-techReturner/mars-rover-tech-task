@@ -1,7 +1,17 @@
-import { add } from "./mars-rover";
+const turnLeft = (x:string) => {
+    if(x === "N") return "W";
+    if(x === "W") return "S";
+    if(x === "S") return "E";
+    return "N";
+};
 
-describe("When adding two numbers", () => {
-    it("should, like, work", () => {
-        expect(add(1,2)).toBe(3);
-    })
-})
+test.each`
+original | expected
+${"N"}   | ${"W"}
+${"W"}   | ${"S"}
+${"S"}   | ${"E"}
+${"E"}   | ${"N"}
+`(
+    "When facing $original, turning left should cause us to face $expected",
+    ({ original, expected}) => expect(turnLeft(original)).toBe(expected)
+);
