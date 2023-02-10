@@ -1,2 +1,2 @@
-# mars-rover-tech-task
+# Mars Rover
 Initial Plans
