@@ -18,7 +18,7 @@
         - E => S,
         - S => W,
         - W => N
-+ Undestanding the X an Y Coordinates
++ Undestanding the X and Y Coordinates
 + Read/Review what & how the Rovers works / what is Plateau
 + Understand/Review/Divide the Brief
 
@@ -45,7 +45,8 @@
     -   LMLMLMLMM  > letters (L, R, M) represents the instructions to move the Rover around the Plateau
 
 ### Example Test Case
-####    Lines of Input to the Program:          Expected Output:
+####    Lines of Input to the Program:
+    Input:                                     Expected Output:     
     First Test                                  1 3 N
         5 5
         1 2 N
