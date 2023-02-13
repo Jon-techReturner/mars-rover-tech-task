@@ -7,17 +7,12 @@
 + List of all functions
 + Understanding the rules of Directions (N, E, S, W)
     -   How the Rovers rotate
-        #### Turning Left      
-        - N => W,
-        - W => S,
-        - S => E,
-        - S => E,
-        - E => N
-        #### Turning Right
-        - N => E,
-        - E => S,
-        - S => W,
-        - W => N
+        #### Turning Left     #### Turning Right 
+        - N => W,                   - N => E,
+        - W => S,                   - E => S,
+        - S => E,                   - S => W,
+        - E => N                    - W => N
+        
 + Undestanding the X and Y Coordinates
 + Read/Review what & how the Rovers works / what is Plateau
 + Understand/Review/Divide the Brief
